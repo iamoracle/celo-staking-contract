@@ -4,13 +4,15 @@ Staking and reward contracts are popular mechanisms for incentivizing participat
 
 
 
-## Deploy
 
+## Install Dependencies
 
 ```bash 
 yarn install
 ```
 
+## Deploy
+
 ```bash 
-npx hardhat run deploy.js
+npx hardhat run ./scripts/deploy.js
 ```
