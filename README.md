@@ -11,6 +11,12 @@ Staking and reward contracts are popular mechanisms for incentivizing participat
 yarn install
 ```
 
+# Setup
+
+1. Change the token in [./scripts/deploy.js](./scripts/deploy.js) to your custom token.
+
+2. Rename [./env_example](./env_example) to `.env` and paste in your private key.
+
 ## Deploy
 
 ```bash 
